@@ -1,0 +1,158 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+C	Classification.py	/^        C=cla_list[pre_y.index(max(pre_y))];$/;"	v
+Cal_Cos	KNN.py	/^def Cal_Cos(dict1,dict2):$/;"	f	access:public
+Cal_Dis	KNN.py	/^def Cal_Dis(dict1,dict2):$/;"	f	access:public
+KNN_Classification	KNN.py	/^def KNN_Classification(text_dict,inner_training_data,k):$/;"	f	access:public
+TEST	text_classification.py	/^def TEST():$/;"	f	access:public
+W	Classification.py	/^W=np.load(f_w);$/;"	v
+Word	word.py	/^class Word(object):$/;"	c	inherits:object
+__author__	Classification.py	/^__author__ = 'Wang Junqi'$/;"	v
+__author__	KNN.py	/^__author__ = 'Wang Junqi'$/;"	v
+__author__	PreTreatment.py	/^__author__ = 'Wang Junqi'$/;"	v
+__author__	TFIDF.py	/^__author__ = 'Wang Junqi'$/;"	v
+__author__	logistic_regression.py	/^__author__ = 'Wang Junqi'$/;"	v
+__author__	word.py	/^__author__ = 'Wang Junqi'$/;"	v
+__author__	word2vec.py	/^__author__ = 'Wang Junqi'$/;"	v
+__init__	word.py	/^	def __init__(self,name):$/;"	m	class:Word	access:public
+all_essay	Classification.py	/^all_essay=0;$/;"	v
+cal_cost	logistic_regression.py	/^def cal_cost(W,X,Y,l2):$/;"	f	access:public
+calc_f1	text_classification.py	/^def calc_f1(actual,pred):  $/;"	f	access:public
+calculate_C	word.py	/^	def calculate_C(self,dict_class,dict_class_num,num_essay):$/;"	m	class:Word	access:public
+chiSquareTest	text_classification.py	/^def chiSquareTest(docVecList,labelList):#docVecList:文档的词频向量，labelList:文档标签列表$/;"	f	access:public
+cla_list	Classification.py	/^cla_list=[];$/;"	v
+class_index	PreTreatment.py	/^class_index=0;$/;"	v
+classification	Classification.py	/^classification={};$/;"	v
+classification	PreTreatment.py	/^classification={};$/;"	v
+classification	TFIDF.py	/^classification={};$/;"	v
+classification	word2vec.py	/^classification={};$/;"	v
+classification_num	PreTreatment.py	/^classification_num={};#记录每个类别的文档数$/;"	v
+essay_dict	Classification.py	/^        essay_dict={};$/;"	v
+essay_list	Classification.py	/^        essay_list=[];$/;"	v
+essay_list	Classification.py	/^        essay_list=np.array(essay_list).reshape(len(essay_list),1);$/;"	v
+essay_list	Classification.py	/^essay_list=[];$/;"	v
+essay_list	TFIDF.py	/^essay_list=[];$/;"	v
+essay_list	word2vec.py	/^essay_list=[];$/;"	v
+f	Classification.py	/^        f=open('test\/'+dir+'\/'+essay,'r');$/;"	v
+f	Classification.py	/^f=open('Words_Info.txt','r');$/;"	v
+f	Classification.py	/^f=open('information.txt','r');$/;"	v
+f	Classification.py	/^f=open('training_data.txt','r');$/;"	v
+f	PreTreatment.py	/^		f=open('training\/'+dir+'\/'+essay,'r');$/;"	v
+f	PreTreatment.py	/^f=open('Stop_Words.txt','r');$/;"	v
+f	PreTreatment.py	/^f=open('Words_Info.txt','w');$/;"	v
+f	PreTreatment.py	/^f=open('information.txt','w');$/;"	v
+f	TFIDF.py	/^		f=open('training\/'+dir+'\/'+essay,'r');$/;"	v
+f	TFIDF.py	/^f=open('Words_Info.txt','r');$/;"	v
+f	TFIDF.py	/^f=open('information.txt','r');$/;"	v
+f	word2vec.py	/^        f=open('training\/'+dir+'\/'+essay,'r');$/;"	v
+f	word2vec.py	/^f=open('Words_Info.txt','r');$/;"	v
+f	word2vec.py	/^f=open('information.txt','r');$/;"	v
+f_result	Classification.py	/^f_result=open('result.txt','w');$/;"	v
+f_w	Classification.py	/^f_w=open('__W','rb');$/;"	v
+featureSelect	text_classification.py	/^def featureSelect(docVecList,featureList):$/;"	f	access:public
+featureSelect_tfidf	text_classification.py	/^def featureSelect_tfidf(docMat):$/;"	f	access:public
+getPreprocessedTextList	text_classification.py	/^def getPreprocessedTextList(textList):#获得用词列表表示的文档，以及词表$/;"	f	access:public
+getVocab	text_classification.py	/^def getVocab(textList):#获得词表$/;"	f	access:public
+get_name	word.py	/^	def get_name(self):$/;"	m	class:Word	access:public
+gradient_decent	logistic_regression.py	/^def gradient_decent(W,X,Y,a,l2):$/;"	f	access:public
+is_count	PreTreatment.py	/^		is_count={};#记录文章内出现的词$/;"	v
+label2Id	text_classification.py	/^label2Id={}#从文本类别标签到文本类别ID的转换（文件夹的文件名作为类别标签）$/;"	v
+line	Classification.py	/^    line=line.rstrip('\\n');$/;"	v
+line	TFIDF.py	/^	line=line.rstrip('\\n');$/;"	v
+line	word2vec.py	/^    line=line.rstrip('\\n').rstrip('\\r');$/;"	v
+loadData	text_classification.py	/^def loadData(path):$/;"	f	access:public
+load_classinfo	logistic_regression.py	/^def load_classinfo(file_name):$/;"	f	access:public
+load_matrix	logistic_regression.py	/^def load_matrix(file_name,cla_dir):$/;"	f	access:public
+main	logistic_regression.py	/^def main():$/;"	f	access:public
+main1	text_classification.py	/^def main1():$/;"	f	access:public
+main2	text_classification.py	/^def main2():$/;"	f	access:public
+main3	text_classification.py	/^def main3():$/;"	f	access:public
+main4	text_classification.py	/^def main4():$/;"	f	access:public
+num_essay	Classification.py	/^num_essay=sum(classification.values());#�����µ�����$/;"	v
+num_essay	PreTreatment.py	/^num_essay=0;$/;"	v
+num_essay	TFIDF.py	/^num_essay=sum(classification.values());#�����µ�����$/;"	v
+num_essay	word2vec.py	/^num_essay=sum(classification.values());#�����µ�����$/;"	v
+num_words	Classification.py	/^        num_words=len(whole_list);$/;"	v
+num_words	TFIDF.py	/^		num_words=len(whole_list);$/;"	v
+num_words	word2vec.py	/^        num_words=len(whole_list);$/;"	v
+pre_y	Classification.py	/^        pre_y=np.dot(W,essay_list);$/;"	v
+pre_y	Classification.py	/^        pre_y=pre_y.tolist();$/;"	v
+preprocessText	text_classification.py	/^def preprocessText(textList):$/;"	f	access:public
+reducedMatrix	text_classification.py	/^def reducedMatrix(docMat,featureList):$/;"	f	access:public
+removeSpecialSymbol	text_classification.py	/^def removeSpecialSymbol(text,symbol):#主要用于移除逗号句号的同时避免移除小数点等，symbol:"."","$/;"	f	access:public
+right_essay	Classification.py	/^right_essay=0;$/;"	v
+sigmoid	Classification.py	/^def sigmoid(x):$/;"	f	access:public
+sigmoid	logistic_regression.py	/^def sigmoid(x):$/;"	f	access:public
+stop_word	PreTreatment.py	/^stop_word=[x.rstrip() for x in stop_word];$/;"	v
+stop_word	PreTreatment.py	/^stop_word=f.readlines();$/;"	v
+stop_word	PreTreatment.py	/^stop_word={x:0 for x in stop_word};$/;"	v
+temp_dict	TFIDF.py	/^		temp_dict={};$/;"	v
+temp_dict	word2vec.py	/^        temp_dict={};$/;"	v
+temp_essay_dict	Classification.py	/^    temp_essay_dict={};$/;"	v
+temp_idf	TFIDF.py	/^		temp_idf=np.array([[x.idf for x in word_list]]).T;$/;"	v
+temp_idf	word2vec.py	/^        temp_idf=np.array([[x.idf for x in word_list]]).T;$/;"	v
+temp_index	TFIDF.py	/^	temp_index=4;$/;"	v
+temp_index	word2vec.py	/^    temp_index=4;$/;"	v
+temp_lines	Classification.py	/^temp_lines=f.readlines();$/;"	v
+temp_lines	TFIDF.py	/^temp_lines=f.readlines();$/;"	v
+temp_lines	word2vec.py	/^temp_lines=f.readlines();$/;"	v
+temp_list	Classification.py	/^            temp_list=word.split(':');$/;"	v
+temp_list	Classification.py	/^    temp_list=line.split(' ');$/;"	v
+temp_list	Classification.py	/^    temp_list=x.split(' ');$/;"	v
+temp_list	Classification.py	/^temp_list=[(z.name,z.id) for z in word_list];$/;"	v
+temp_list	TFIDF.py	/^	temp_list=line.split(' ');$/;"	v
+temp_list	TFIDF.py	/^	temp_list=x.split(' ');$/;"	v
+temp_list	TFIDF.py	/^temp_list=[(z.name,z.id) for z in word_list];$/;"	v
+temp_list	word2vec.py	/^    temp_list=line.split(' ');$/;"	v
+temp_list	word2vec.py	/^    temp_list=x.split(' ');$/;"	v
+temp_list	word2vec.py	/^temp_list=[(z.name,z.id) for z in word_list];$/;"	v
+temp_vector	TFIDF.py	/^		temp_vector=1.0*temp_vector\/num_words;$/;"	v
+temp_vector	TFIDF.py	/^		temp_vector=[x[0] for x in temp_vector.tolist()];$/;"	v
+temp_vector	TFIDF.py	/^		temp_vector=np.zeros((len(word_list),1));$/;"	v
+temp_vector	TFIDF.py	/^		temp_vector=temp_vector*temp_idf;$/;"	v
+temp_vector	word2vec.py	/^        temp_vector=1.0*temp_vector\/num_words;$/;"	v
+temp_vector	word2vec.py	/^        temp_vector=[x[0] for x in temp_vector.tolist()];$/;"	v
+temp_vector	word2vec.py	/^        temp_vector=np.zeros((len(word_list),1));$/;"	v
+temp_vector	word2vec.py	/^        temp_vector=temp_vector*temp_idf;$/;"	v
+temp_word	Classification.py	/^    temp_word=Word(temp_list[0]);$/;"	v
+temp_word	PreTreatment.py	/^					temp_word=Word(x);$/;"	v
+temp_word	TFIDF.py	/^	temp_word=Word(temp_list[0]);$/;"	v
+temp_word	word2vec.py	/^    temp_word=Word(temp_list[0]);$/;"	v
+temp_y	Classification.py	/^            temp_y=1.0*y\/num_words*word_list[x].idf;$/;"	v
+text2vec	text_classification.py	/^def text2vec(textList,vocabList):#（词列表表示的文档，词表）$/;"	f	access:public
+textPreprocess	text_classification.py	/^def textPreprocess(text):#预处理text，输出结为词列表$/;"	f	access:public
+tf_idf	text_classification.py	/^def tf_idf(textList,vocabList):#（词列表表示的文档，词表）$/;"	f	access:public
+tfidf	text_classification.py	/^def tfidf(docVecArr):#docVecArr:numpy.array[][]   row:text  column:word element:word frequency in doc float type$/;"	f	access:public
+train_f	TFIDF.py	/^train_f=open('training_data.txt','w');$/;"	v
+train_f	word2vec.py	/^train_f=open('vector_data.txt','w');$/;"	v
+vocabList	text_classification.py	/^vocabList=[]#词表列表$/;"	v
+whole_list	Classification.py	/^        whole_list=[x.lower() for x in whole_list if x.isalpha()];$/;"	v
+whole_list	Classification.py	/^        whole_list=re.split(r'[^a-z^A-z]',whole_str);$/;"	v
+whole_list	PreTreatment.py	/^		whole_list=[x.lower() for x in whole_list if x.isalpha()];$/;"	v
+whole_list	PreTreatment.py	/^		whole_list=re.split(r'[^a-z^A-z]',whole_str);$/;"	v
+whole_list	TFIDF.py	/^		whole_list=[x.lower() for x in whole_list if x.isalpha()];$/;"	v
+whole_list	TFIDF.py	/^		whole_list=re.split(r'[^a-z^A-z]',whole_str);$/;"	v
+whole_list	word2vec.py	/^        whole_list=[x.lower() for x in whole_list if x.isalpha()];$/;"	v
+whole_list	word2vec.py	/^        whole_list=re.split(r'[^a-z^A-z]',whole_str);$/;"	v
+whole_str	Classification.py	/^        whole_str=f.read();$/;"	v
+whole_str	PreTreatment.py	/^		whole_str=f.read();$/;"	v
+whole_str	TFIDF.py	/^		whole_str=f.read();$/;"	v
+whole_str	word2vec.py	/^        whole_str=f.read();$/;"	v
+word_dir	Classification.py	/^word_dir={x:int(y) for x,y in temp_list};$/;"	v
+word_dir	PreTreatment.py	/^word_dir={x:y for x,y in word_dir.iteritems() if y.count>=5};#去低频词$/;"	v
+word_dir	PreTreatment.py	/^word_dir={};$/;"	v
+word_dir	TFIDF.py	/^word_dir={x:int(y) for x,y in temp_list};$/;"	v
+word_dir	word2vec.py	/^word_dir={x:int(y) for x,y in temp_list};$/;"	v
+word_index	PreTreatment.py	/^word_index=0;$/;"	v
+word_list	Classification.py	/^    word_list=line.split(',');$/;"	v
+word_list	Classification.py	/^word_list=[];$/;"	v
+word_list	PreTreatment.py	/^word_list=sorted(word_dir.values(),cmp=lambda x,y:cmp(x.entropy,y.entropy),reverse=True)[:2000];#选取特征维数s$/;"	v
+word_list	TFIDF.py	/^word_list=[];$/;"	v
+word_list	word2vec.py	/^word_list=[];$/;"	v
+x	Classification.py	/^    x=x.rstrip('\\n');$/;"	v
+x	TFIDF.py	/^	x=x.rstrip('\\n');$/;"	v
+x	word2vec.py	/^    x=x.rstrip('\\n').rstrip('\\r');$/;"	v

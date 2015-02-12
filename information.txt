@@ -1,0 +1,10 @@
+earn 2877
+wheat 212
+money-fx 538
+corn 181
+trade 369
+acq 1650
+grain 433
+interest 347
+crude 389
+ship 197
